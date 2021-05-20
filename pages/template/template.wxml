@@ -1,0 +1,7 @@
+<template name="msgItem" >
+
+  <view  wx:for="{{item}}">
+    <text > {{index}}: {{item.msg}} </text>
+    <text> Time: {{item.time}} </text>
+  </view>
+</template>

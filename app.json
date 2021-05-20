@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",     
+    "pages/logs/logs",
+    "pages/video/video",
+    "pages/music/music",
+    "pages/user/user"
+    
+  ],
+
+  "window": {
+
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "小程序",  
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "index",
+      "iconPath": "pages/images/home.png",
+      "selectedIconPath": "pages/images/home-actived.png"
+    },{
+      "pagePath": "pages/news/news",
+      "text": "news",
+      "iconPath": "pages/images/search_icon.png",
+      "selectedIconPath": "pages/images/search_active_icon.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "video",
+      "iconPath": "pages/images/popular_icon.png",
+      "selectedIconPath": "pages/images/popular_active_icon.png"
+    },{
+      "pagePath": "pages/music/music",
+      "text": "music",
+      "iconPath": "pages/images/top_icon.png",
+      "selectedIconPath": "pages/images/top_active_icon.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "my",
+      "iconPath": "pages/images/my_icon.png",
+      "selectedIconPath": "pages/images/my_active_icon.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+
+      <view>
+
+        <!-- 1.使用导航组件，标签，页面链接来实现 -->
+        <navigator class="btn" url="../new/news">navigator 导航事件跳转 news</navigator>
+        <!-- 2.给页面布局加监听bindtap事件，然后在方法里面 -->
+        <view class="btn" bindtap="getNewTap">bindtap 冒泡事件跳转 news</view>
+        <view class="btn" catchtap="getNewTap">catchtap 非冒泡事件跳转 news</view>
+        <!-- 3.通过wx.redirectTo实现跳转 -->
+       <!-- 4.通过wx.navigateBack返回上一级 -->
+       <block>
+
+      </block>
+      </view>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

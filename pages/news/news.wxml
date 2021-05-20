@@ -1,0 +1,49 @@
+<!--pages/news/news.wxml-->
+<view class="news-container">
+  <swiper indicator-dots="true" indicator-active-color="#000000" autoplay="true" current="0" circular="true"
+    interval="3000">
+    <swiper-item>
+      <image src="../images/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="article-list">
+    <view class="author-time">
+      <image src="../images/head1.png" class="author-icon"></image>
+      <text class="author-name">aex</text>
+      <text class="author-date">200/1/2</text>
+    </view>
+    <text class="title">岁月不老，一世倾城</text>
+    <image src="../images/sub1.png" class="article-img"></image>
+    <text class="article-text">时光的流逝，如缓缓流过的小溪，再怎样努力也无法逆转它的方向；这个午后，我站在开满丁香花的树下目送你走远，紫色的小花散发着幽幽的暗香，我忍不住深吸一口气，连同这阳光的明艳一起咽下，又忍不住轻笑，你温情厚重的影子仿佛还在，余温尚存，这里因你目光的停留而变成一道让人心生欢快的风景！</text>
+    <view class="article-like">
+      <image src="../images/sc.png" class="article-like-icon"></image>
+      <text class="article-like-text">11</text>
+      <image src="../images/fx.png" class="article-like-icon"></image>
+      <text class="article-like-text">22</text>
+    </view>
+  </view>
+  <!-- ------test------- -->
+  <view class="article-list">
+    <view class="author-time">
+      <image src="../images/head1.png" class="author-icon"></image>
+      <text class="author-name">aex</text>
+      <text class="author-date">200/1/2</text>
+    </view>
+    <text class="title">岁月不老，我们不散</text>
+    <image src="../images/sub2.png" class="article-img"></image>
+    <text class="article-text">天空不知何时划过一颗颗流星，飞向同一个星球，宛如我们来自不同的城市，但却相聚在这小小的房子里。生命是个漫长又遥远的过程，经历着陌生和熟悉，冷漠和温暖。时光消磨着岁月的痕迹，追着青春的步伐，我们哼着歌回忆往昔;我们读着书品味诗意;我们说着笑讲述自己;我们谈着天细数日子。梦里花开，清风飘过，桌上的书页正谱写动人的旋律。白色的墙是你我最坚实的港湾，小小的房子里住着我们的记忆，灯光的照明，你牵着我的手，陪我走过无数个日日夜夜，陪我穿梭于春夏秋冬，陪我走过生命的旅程。又是花开的季节，到处都是风车在转，记得那个时候你说日子好长，你说青春不变梦想满星辰，你说记忆犹存沧海桑田，你说时光不老我们不散，其实那年，我们追着风筝奔跑的时候，时光就早已悄悄溜走。阳光下，一行人一排影子，还有一串相伴的小脚丫。</text>
+    <view class="article-like">
+      <image src="../images/sc.png" class="article-like-icon"></image>
+      <text class="article-like-text">11</text>
+      <image src="../images/fx.png" class="article-like-icon"></image>
+      <text class="article-like-text">22</text>
+    </view>
+  </view>
+</view>
